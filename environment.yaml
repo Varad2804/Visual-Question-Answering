@@ -1,0 +1,15 @@
+name: vqa-lora-project
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - transformers==4.18.0
+      - datasets==1.18.3
+      - torch==1.11.0
+      - peft==0.0.1
+      - scikit-learn==0.24.2
+      - matplotlib==3.4.2
+      - pillow==8.2.0
+prefix: vqa-lora-env
